@@ -1,0 +1,21 @@
+### IntelliJ
+.idea/
+
+### Composer
+composer.phar
+/vendor/
+
+### Symfony template
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+### Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+### Upload
+/web/uploads/
