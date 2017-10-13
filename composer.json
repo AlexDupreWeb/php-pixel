@@ -1,0 +1,17 @@
+{
+    "name": "adw/pixel",
+    "description": "Pixel Tracker",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "AdwPixel\\": "src/"
+        }
+    },
+    "autoload-dev": {}
+}
