@@ -1,0 +1,14 @@
+# ---------------[ parameters ]---------------
+#SetEnv PHP_VER 5
+#RewriteEngine on
+
+# ---------------[ folder protection ]---------------
+Options -Indexes
+
+# ---------------[ 403 error ]---------------
+#ErrorDocument 403 /403.php
+
+# ---------------[ 404 error ]---------------
+#ErrorDocument 404 /404.php
+
+# ---------------[ rewriting ]---------------
